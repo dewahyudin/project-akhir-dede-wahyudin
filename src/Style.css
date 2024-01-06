@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Style for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  /* Style for table header */
+  .table th {
+    background-color: #4b7bec; /* Warna latar belakang header */
+    padding: 10px;
+    text-align: center;
+    color: #fff; /* Warna teks header */
+  }
+  
+  /* Style for table data */
+  .table td {
+    padding: 8px;
+    text-align: center;
+    color: #333; /* Warna teks data */
+  }
+  
+  /* Style for "Actions" column */
+  .actions-column {
+    text-align: center;
+  }
+  
+  /* Style for buttons in table */
+  .btn-link {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #007bff;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; /* Animasi perubahan warna */
+  }
+  
+  .btn-link:hover {
+    text-decoration: underline;
+    color: #ff070f; /* Warna saat tombol dihover */
+    background-color: transparent; /* Menghilangkan latar belakang */
+  }
+  
